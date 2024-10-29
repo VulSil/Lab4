@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+.header {
+    display: flex;
+    justify-content: flex-end;
+    background-color:limegreen;
+    padding: 10px;
+}
+.header a {
+    margin-left: 20px;
+    font-family: Bahnschrift;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+td{
+    font-size: 25px;
+    font-family: Cascadia Code;
+    color: limegreen;
+    padding: 5px;
+}
+th{
+    font-size: 25px;
+    font-family: Cascadia Code;
+    background-color: DarkGreen;
+    color: whitesmoke;
+    padding: 5px;
+    text-align: left;
+}
+caption{
+    margin-left: 20px;
+    font-family: Bahnschrift;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 30px;
+}
+table,th,td{
+    border: 2px solid white;
+    border-collapse:collapse;
+}
+tr:nth-child(even){
+    background-color: DimGrey;
+}
